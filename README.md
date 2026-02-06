@@ -2,6 +2,8 @@
 
 A collection of Python plugins for GIMP that bring familiar, Photoshop-style layer management to your workflow. Developed and tested on **Linux Mint**.
 
+<img width="250" height="1012" alt="image" src="https://github.com/user-attachments/assets/d7d8ae9a-6c10-4afa-91b7-c2f30daa8ab9" />
+
 ## Features
 
 This suite includes three essential tools to streamline your layer operations:
@@ -20,6 +22,8 @@ This suite includes three essential tools to streamline your layer operations:
     chmod +x *.py
     ```
 4.  Restart GIMP. You will find the new commands under the **Layer** menu.
+
+info：Please set the shortcut keys yourself.
 
 ## Technical Background & AI Assistance
 

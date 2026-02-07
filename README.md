@@ -16,7 +16,7 @@ This suite includes three essential tools to streamline your layer operations:
 
 1.  Download the `.py` files from the `src/` folder.
 2.  Copy the files to your GIMP plug-ins directory.
-    * On Linux: `~/.config/GIMP/2.10/plug-ins/`
+    * On Linux: `~/.config/GIMP/3.0/plug-ins/`
 3.  Ensure the files have execution permissions:
     ```bash
     chmod +x *.py
@@ -30,7 +30,16 @@ info：Please set the shortcut keys yourself.
 I am still in the process of learning Python and GIMP plugin development. To bridge the gap and create these tools, I collaborated with **AI (Google Gemini)** to write and refine the code. 
 
 My goal was to replicate specific Photoshop behaviors that I missed in GIMP. While these scripts were developed with AI assistance, they have been manually tested and verified to work correctly in my Linux Mint environment.
-
+### Directory Structure
+```text
+plug-ins/
+├── group_selected_layers/
+│   └── group_selected_layers.py
+├── merge_selected_layers/
+│   └── merge_selected_layers.py
+└── ungroup_layers/
+    └── ungroup_layers.py
+```
 ## License
 
 This project is open-source. Feel free to use, modify, and share!

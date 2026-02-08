@@ -19,6 +19,7 @@ class MultiUngroup(Gimp.PlugIn):
         procedure.set_sensitivity_mask(Gimp.ProcedureSensitivityMask.ALWAYS)
         procedure.set_menu_label("Ungroup Selected Layers")
         procedure.add_menu_path('<Image>/Layer/')
+        procedure.add_menu_path('<Layers>/Layers Menu') # LayerMenu
         return procedure
 
     def run(self, procedure, run_mode, image, drawables, config, run_data):

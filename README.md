@@ -1,4 +1,4 @@
-# GIMP Photoshop Layer Workflow
+# GIMP Photoshop Style Layer Workflow
 
 A collection of Python plugins for GIMP designed to bring familiar, Photoshop-style layer management to your workflow. 
 This suite is specifically developed and tested for the **GIMP 3.0 series (including 3.2)** on **Linux Mint** and **Windows 11**.
